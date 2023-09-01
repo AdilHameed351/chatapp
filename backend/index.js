@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors(
     {
         origin: ["https://chatapp-frontend-three.vercel.app"],
-        methods: ["POST", "GET"],
+        methods: ["POST"],
         credentials: true
     }
 ));
